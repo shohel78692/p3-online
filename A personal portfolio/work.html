@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<style>
+		.row{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	width: 100%;
+}
+ 
+.rowf1{
+   width: 50%;
+	margin: 20px 13px 0px 13px;
+   position: relative;
+}
+.rowf1 img{
+	width: 100%;  
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 20px;
+	height: 350px; 
+	cursor: pointer; 
+			 transition: 0.5s; 
+} 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99.5%;
+  width: 100%;
+  border-radius: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7);
+}
+.rowf1:hover .overlay{
+  opacity: 1;
+}
+	</style>
+</head>
+<body>
+
+	<div class="row">
+
+	  	<div class="rowf1">
+	  		<img src="3.png">
+	  		<div class="overlay" onclick="show4()">
+	  			<div class="text">PERSONAL WEBSITE</div>
+	  		</div>
+	  	</div>
+
+	  	<div class="rowf2">
+	  		 <img src="4.png">
+	  		<div class="overlay2" onclick="show3()">
+	  			<div class="text">REGISTRATION FORM</div>
+	  		</div>
+	  	</div> 
+
+	  </div>
+
+</body>
+</html>
